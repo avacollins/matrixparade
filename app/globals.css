@@ -53,10 +53,12 @@ h6 {
 
 p {
   font-size: 1.4rem;
+  margin: 2rem 0;
 }
 
 h1 {
   font-size: 4.8rem;
+  line-height: 1.25;
 }
 
 h2 {
@@ -88,7 +90,7 @@ footer {
 
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   min-width: 300px;
   height: 100vh;
@@ -101,21 +103,19 @@ ul {
 }
 
 .page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   /* background-color: darkmagenta; */
 }
 
 .post {
-  width: 80%;
-  margin-left: 10%;
+  padding: 0 10% 0 10%;
   /* background-color: darkgreen; */
 }
 
 .post h1 {
   text-align: center;
-}
-
-.post p {
-  margin: 2rem 0;
 }
 
 .image {
@@ -125,23 +125,33 @@ ul {
 }
 
 @media screen and (max-width: 650px) {
-  /* .page {
-    background-color: blueviolet;
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .page {
+    /* background-color: blueviolet; */
   }
 
   .post {
-    background-color: aquamarine;
-  } */
+    /* background-color: rgb(0, 4, 215); */
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  /* .page {
-    background-color: magenta;
+
+
+  .page {
+    /* background-color: magenta; */
   }
 
   .post {
-    background-color: darkcyan;
-  } */
+    /* background-color: darkcyan; */
+  }
 }
 
 @media screen and (min-width: 1600px) {
