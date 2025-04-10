@@ -72,6 +72,10 @@ a.active {
   color: red;
 }
 
+footer {
+  padding: 2rem 0;
+}
+
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -92,9 +96,60 @@ a.active {
   padding: 0 2rem;
 }
 
+ul {
+  margin-left: 2rem;
+}
 
-@media screen and (max-width: 650px) {}
+.page {
+  /* background-color: darkmagenta; */
+}
 
-@media screen and (min-width: 1024px) {}
+.post {
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: darkgreen; */
+}
 
-@media screen and (min-width: 1600px) {}
+.post h1 {
+  text-align: center;
+}
+
+.post p {
+  margin: 2rem 0;
+}
+
+.image {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  /* .page {
+    background-color: blueviolet;
+  }
+
+  .post {
+    background-color: aquamarine;
+  } */
+}
+
+@media screen and (min-width: 1024px) {
+  /* .page {
+    background-color: magenta;
+  }
+
+  .post {
+    background-color: darkcyan;
+  } */
+}
+
+@media screen and (min-width: 1600px) {
+  /* .page {
+    background-color: blue;
+  }
+
+  .post {
+    background-color: orangered;
+  } */
+}

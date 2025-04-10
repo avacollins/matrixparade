@@ -135,6 +135,10 @@ a.active {
   color: red;
 }
 
+footer {
+  padding: 2rem 0;
+}
+
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -153,6 +157,29 @@ a.active {
   min-height: 600px;
   padding: 0 2rem;
   display: flex;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+.post {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.post h1 {
+  text-align: center;
+}
+
+.post p {
+  margin: 2rem 0;
+}
+
+.image {
+  width: 100vw;
+  height: 100vh;
+  display: block;
 }
 
 
