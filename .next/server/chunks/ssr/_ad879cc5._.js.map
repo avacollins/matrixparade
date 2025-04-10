@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/avac/code/matrixparade/app/page.tsx"],"sourcesContent":["\"use client\";\nimport React from \"react\";\n\n\nexport default function Home() {\n  return (\n    <React.Fragment>\n      <main className=\"main\">\n        <section>\n          <h1>hello world</h1>\n          <p>Lorem ipsum I wish i knew more but I dont.</p>\n        </section>\n      </main>\n    </React.Fragment >\n  );\n}\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAIe,SAAS;IACtB,qBACE,8OAAC,qMAAA,CAAA,UAAK,CAAC,QAAQ;kBACb,cAAA,8OAAC;YAAK,WAAU;sBACd,cAAA,8OAAC;;kCACC,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;kCAAE;;;;;;;;;;;;;;;;;;;;;;AAKb","debugId":null}},
+    {"offset": {"line": 57, "column": 0}, "map": {"version":3,"sources":["file:///Users/avac/code/matrixparade/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-ssr'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}
